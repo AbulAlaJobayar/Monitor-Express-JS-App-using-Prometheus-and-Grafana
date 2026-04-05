@@ -138,7 +138,7 @@ sum by (instance, method) (rate(http_request_duration_seconds_count[5m]))
 
 
 
-## ⚡ Step 4: Configure SMTP in Grafana (Email Settings)
+## ⚡ Step 5: Configure SMTP in Grafana (Email Settings)
 
 Edit Grafana config:
 
@@ -168,7 +168,7 @@ sudo systemctl status grafana-server
 
 ---
 
-## ⚡ Step 5: Create Contact Point in Grafana
+## ⚡ Step 6: Create Contact Point in Grafana
 
 1. Open Grafana UI → **Alerting → Contact Points → New Contact Point**  
 2. Type: **Email**  
@@ -179,7 +179,7 @@ sudo systemctl status grafana-server
 
 ---
 
-## ⚡ Step 6: Create Dashboard in Grafana
+## ⚡ Step 7: Create Dashboard in Grafana
 
 1. Open Grafana UI → **Dashboards → New Dashboard → Add new panel**  
 2. In query box, write:
